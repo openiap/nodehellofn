@@ -1,0 +1,22 @@
+{
+    "name": "nodehellofn",
+    "version": "0.0.2",
+    "description": "Node.js hello service",
+    "main": "main.js",
+    "author": "OpenIAP ApS / Allan Zimmermann",
+    "license": "MPL-2.0",
+    "openiap": {
+        "daemon": true,
+        "chromium": false,
+        "language": "nodejs",
+        "typescript": false
+    },
+    "scripts": {
+        "updateapi": "npm uninstall openiap && npm i openiap",
+        "start": "node main.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "openiap": "^0.0.31"
+    }
+}
