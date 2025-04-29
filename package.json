@@ -1,6 +1,6 @@
 {
     "name": "nodehellofn",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "description": "Node.js hello service",
     "main": "main.js",
     "author": "OpenIAP ApS / Allan Zimmermann",
@@ -17,6 +17,6 @@
     },
     "keywords": [],
     "dependencies": {
-        "openiap": "^0.0.31"
+        "openiap": "^0.0.36"
     }
 }
